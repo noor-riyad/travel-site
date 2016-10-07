@@ -6,7 +6,15 @@
 	
 	&--medium {
 		max-width: 976px;
-	} 
+	}
+	
+	&--small {
+		max-width: 280px;
+		
+		@mixin atMedium {
+			max-width: none;
+		}
+	}
 	
 	&--no-wrapper-until-medium {
 		padding-left: 0;
