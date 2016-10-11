@@ -16,6 +16,10 @@
 		}
 	}
 	
+	&--narrow {
+		max-width: 470px;
+	}
+	
 	&--no-wrapper-until-medium {
 		padding-left: 0;
 		padding-right: 0;
